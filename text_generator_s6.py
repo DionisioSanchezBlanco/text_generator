@@ -32,7 +32,7 @@ f = open(input(), "r", encoding="utf-8")
 wtk = WhitespaceTokenizer().tokenize(f.read())
 
 # Trigrams generates an iterator. Put type list to get the data
-# bigr = list(bigrams(wtk))
+# bigr = list(bigrams(wtk)) 
 trig = list(trigrams(wtk))
 dict_trig = {}
 
